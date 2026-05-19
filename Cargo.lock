@@ -727,7 +727,7 @@ dependencies = [
 [[package]]
 name = "sifr-demo-json"
 version = "0.1.0"
-source = "git+https://github.com/sifr-lang/sifr-demo-json?tag=v0.1.0#d9619e5fa41468bcc99054f8abafc1cec27dde94"
+source = "git+https://github.com/sifr-lang/sifr-demo-json?tag=v0.1.0#20a3d8efc8ab1defa72c00206b9a47c363c63e1e"
 
 [[package]]
 name = "slab"
