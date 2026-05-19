@@ -18,3 +18,5 @@ manifest = "sifr.toml"
 [dependencies]
 sifr-demo-json = { git = "https://github.com/sifr-lang/sifr-demo-json", tag = "v0.1.0" }
 reqwest = { version = "0.12", features = ["json", "rustls-tls"], default-features = false }
+
+[workspace]
