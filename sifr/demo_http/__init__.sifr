@@ -1,1 +1,1 @@
-from demo_http.client import DemoHttpError, DemoHttpResponse, get
+from .client import DemoHttpError, DemoHttpResponse, get
