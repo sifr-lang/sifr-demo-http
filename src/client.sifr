@@ -1,0 +1,8 @@
+class DemoHttpError(Error):
+    message: str
+
+class DemoHttpResponse:
+    body: str
+
+def get(url: str) -> DemoHttpResponse:
+    return DemoHttpResponse(body = "{\"status_code\":200}")
