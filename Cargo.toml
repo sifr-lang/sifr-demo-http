@@ -6,14 +6,16 @@ include = [
   "Cargo.toml",
   "Cargo.lock",
   "sifr.toml",
-  "sifr/**/*.sifr",
+  "src/**/*.sifr",
   "src/**/*.rs",
   "README.md",
   "LICENSE"
 ]
 
+# sifr-managed
 [package.metadata.sifr]
 manifest = "sifr.toml"
+# end sifr-managed
 
 [dependencies]
 sifr-demo-json = { path = "../sifr-demo-json" }
